@@ -1,36 +1,74 @@
 ---
 # Front matter comment
 ---
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:300);
 
 body {
     background-image: url(https://www.refundschedule.com/wp-content/uploads/2014/01/grey-website-background-illusionapparel2.jpg);
     background-size: cover;
     box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
 }
-header {
+.nav {
+}
+.header {
     align-items: center;
+}
+div {
+    display: block;
+}
+div.container {
+    max-width: 550px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #282828;
+    border-radius: 3px;
+    background-color: #fefefe;
+    box-shadow: 0 0 10px 0 #282828;
 }
 div.row {
     text-align: center;
+    box-sizing: border-box;
+    font-size: 16px;
+    margin-top: 10px;
+}
+h3 {
+    font-weight: lighter;
 }
 .img-circle {
     height: 150px;
     width: 150px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
-a.social-btn {
+.title {
+    margin: 15px;
+}
+hr.hr-line {
+    border: 0;
+    height: 1px;
+    background: #999;
+    background-image: linear-gradient(to right, #fff, #999, #fff);
+    margin-left: 18%;
+    margin-right: 18%;
+}
+a.social-btn, .btn {
     background-color: white;
-    border: solid gray;
+    border: solid #d0d1d5;
     border-width: 1px;
     background-origin: padding-box;
     background-size: auto;
     display: inline-block;
-    border-radius: 3px;
-    padding: 10px;
-    margin: 10px;
+    border-radius: 4px;
+    padding: 8px;
+    margin: 7px;
     text-align: center;
+    color: #282828;
 }
 .fa {
-    color: black;
+    color: #282828;
     font-size: 20px;
     height: auto;
     width: auto;
@@ -45,6 +83,14 @@ a.social-btn {
 .fa::after {
     box-sizing: border-box;
 }
+a.btn.txt-btn {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.btm-row {
+    margin-top: 15px;
+}
+
 
 
 @import "nav";
