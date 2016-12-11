@@ -19,14 +19,14 @@ body {
 }
 .nav {
 }
-.header {
+.header.flex {
     align-items: center;
 }
 div {
     display: block;
 }
 div.container {
-    max-width: 550px;
+    max-width: 70%;
     padding-right: 15px;
     padding-left: 15px;
     margin-left: auto;
