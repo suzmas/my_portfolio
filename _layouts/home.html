@@ -1,15 +1,35 @@
 <!DOCTYPE html>
-    <html>
-        <head>
-            <link rel="stylesheet" href="/css/main.css" />
-            <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-            <script type="text/javascript" src="/assets/script.js"></script>
-        </head>
-        
-        <body>
-            <h1> LERLERLER </h1>
-            
-            {% include nav.html %}
-            
-        </body>
-    </html>
+<html>
+  
+<head>
+  <link rel="stylesheet" href="/css/main.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script type="text/javascript" src="/assets/script.js"></script>
+</head>
+  
+<body>
+      
+  <header class="header flex" role-"banner">
+    <div class="container animated fadeIn">
+      <div class="row">
+        <a href="/">
+          <img src="http://www.iconsdb.com/icons/preview/black/circle-xxl.png" class="img-circle">
+          </img>
+        </a>
+        <h3 class="title">This Title</h3>
+        <hr class="hr-line">
+        <h3 class="title">{% include nav.html %}</h3>
+        <hr class="hr-line">
+        <h3 class="title" style="font-size:30px">
+          <a class="social-btn" href="http://twitter.com/suzmas" target="_blank" rel="noopener noreferrer">
+            <i class="fa fa-fw fa-twitter-square"></i>
+          </a>
+        </h3>
+      </div>
+    </div>
+    
+  </header>    
+
+</body>
+</html>

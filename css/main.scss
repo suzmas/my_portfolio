@@ -2,5 +2,50 @@
 # Front matter comment
 ---
 
+body {
+    background-image: url(https://www.refundschedule.com/wp-content/uploads/2014/01/grey-website-background-illusionapparel2.jpg);
+    background-size: cover;
+    box-sizing: border-box;
+}
+header {
+    align-items: center;
+}
+div.row {
+    text-align: center;
+}
+.img-circle {
+    height: 150px;
+    width: 150px;
+}
+a.social-btn {
+    background-color: white;
+    border: solid gray;
+    border-width: 1px;
+    background-origin: padding-box;
+    background-size: auto;
+    display: inline-block;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+.fa {
+    color: black;
+    font-size: 20px;
+    height: auto;
+    width: auto;
+    text-align: center;
+}
+.fa:before {
+    content: "";
+}
+.fa::before {
+    box-sizing: border-box;
+}
+.fa::after {
+    box-sizing: border-box;
+}
+
+
 @import "nav";
 
