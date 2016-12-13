@@ -1,8 +1,8 @@
 /* Font Imports*/
 
 li a {
-    text-align: center;
-    font-size: 1em;
+  text-align: center;
+  font-size: 1em;
 }
 
 a {
@@ -78,7 +78,7 @@ a {
   display: flex;
   /* Overlay positioning */
   display: none;
-  position: absolute;
+  position: fixed;
   left: 0;
   top: 0;
   width: 100%;

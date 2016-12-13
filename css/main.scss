@@ -19,8 +19,7 @@ body {
     height: 100%;
     font-family: 'Fira Sans', sans-serif;
 }
-.nav {
-}
+
 .header.flex {
     align-items: center;
 }
@@ -106,7 +105,9 @@ a.btn.txt-btn {
     
 }
 
-
+.opaque {
+    opacity: 0 !important;
+}
 
 @import "nav";
 
