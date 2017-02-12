@@ -13,11 +13,16 @@ Cmd + Opt + I --> Opens DevTools
 
 
 Sections:
-Device Mode- Build fully responsive websites by simulating their screen sizes, capablitlies, and resolutions. Responsively design by inspecting CSS media queries--> includes a screen emulator, can save presets, etc.
+Device Mode- Build fully responsive websites by simulating their screen sizes, capabilities, and resolutions. Responsively design by inspecting CSS media queries--> includes a screen emulator, can save presets, etc.
 
 What Do DevTools have to offer?
 
 -device mode- build responsive, mobile first websites
 -elements panel- manipulate the DOM in real time
 -console panel- debug and interact with javascript on the page
--sources panel- debug w/ breakpoints
+-sources panel- debug w/ breakpoints, connect your local files (w/workspace) to use as code editor
+-network panel- optimize page load performance and debug request issues
+-performance panel- improve performance by recording the events that happen during use of site
+-memory panel- explore memory usage and track down leaks
+-application panel- inspect resources that are loades, including Web SQL dbs, local & session storage, cookies, cache, images, fonts, & stylesheets
+-security panel- debug content issues, certificate problems, and more 
